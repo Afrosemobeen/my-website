@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>slideshow</title>
+        <link rel="stylesheet" href="css/slideshow.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/cycle2.js"></script>
+        <script type="text/javascript" src="js/declarativeToggle.js"></script>
+    </head>
+    <body>
+        <header class="section">
+
+            <div class="container">
+                <h1>Website title</h1>
+                <p class="hide-small">This is the slogan of this website.</p>
+                <span data-toggle-target=".site-nav" class="toggle-btn">MENU</span>
+                <nav class="site-nav">
+                    <ul class="group">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Profile</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li class="hide-small"><a href="#">links</a></li>
+                        <li class="hide-small"><a href="#">contacts</a></li>
+                        <li><a href="#">details</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <div class="content-area group section">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-md-8 push-down-sm">
+                        <div class="cycle-slideshow" data-cycle-slides=".slide" data-cycle-pause-on-hover="true">
+                            <span class="cycle-prev">&laquo;</span>
+                            <span class="cycle-next">&raquo;</span>
+                            <span class="cycle-pager"></span>
+                            <div class="slide">
+                                <img src="images/cat.jpg" alt="cat">
+                                <div class="slide-text">
+                                    <h3>rose!</h3>
+                                    <p>This is my cute little kittu<a href="#" class="btn-a">Call to kittu</a></p>
+                                </div>
+                            </div>
+
+                            <div class="slide">
+                                <img src="images/fairy.jpg.jpg" alt="this is the image of fairy">
+                                <div class="slide-text">
+                                    <h3>fairy!</h3>
+                                    <p>It looks pretty and I like this type of animatioin movies very much.</p>
+                                </div>
+                            </div> 
+                            <div class="slide">       
+                                <img src="images/pebble.jpg" alt="pebble">
+                                <div class="slide-text">
+                                    <h3>Pebble!</h3>
+                                    <p>This is the image of pebbles.generally they found near the sea shores.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet dolor quaerat quos cumque provident est repellendus perspiciatis sit, animi sed, nemo maxime iure. Vitae quibusdam, eius corrupti repellat debitis sapiente?</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eveniet accusantium perferendis neque quia! Quaerat tempora nisi velit ex impedit, earum beatae eos, commodi vero soluta illum iste rem facere!<sapn data-toggle-target=".full-text" data-toggle-text="Hide the full text...." class="toggle-btn read-more">Read the full text.....</sapn></p>
+                        <div class="full-text">
+                            <h2>Full Text</h2>
+                            <p><strong>This is the full text</strong>,Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic distinctio voluptatibus dignissimos recusandae! Eaque architecto omnis ex perferendis. Voluptatum esse dolores obcaecati velit quos. Ipsam rerum quos omnis eum eveniet?</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor unde enim debitis maiores repudiandae, quo possimus laborum maxime labore! Accusamus voluptatem ipsa unde magnam tenetur doloribus ratione ex quaerat illo!</p>
+                        </div>
+                    
+                    </div>
+                    <div class="col col-md-4 sidebar">
+                        <h3>sidebar</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quidem adipisci debitis incidunt corporis perferendis culpa quas sed beatae maxime. Molestias provident commodi natus! Quod suscipit voluptate hic rem temporibus?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis molestias, nulla perferendis animi nisi ex quis ad esse corrupti adipisci debitis aliquam voluptatem, recusandae vitae maxime libero. Quasi, id vitae.</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem sunt sed necessitatibus nulla delectus debitis perferendis doloremque dignissimos ab molestias. Dolores harum cupiditate repellat iste quo dicta aperiam dignissimos fugit.</p>
+                        
+                     </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>&copy;this is the footer of this website.</p>
+        </footer>
+
+        
+    </body>
+</html>
+
+
+
